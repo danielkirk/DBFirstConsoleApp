@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="721aea92c4a94a0d8349673c16c3bf41" Name="Diagram1">
+        <EntityTypeShape EntityType="GitbookModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GitbookModel.AspNetRole" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GitbookModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GitbookModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GitbookModel.AspNetUser" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GitbookModel.Post" Width="1.5" PointX="5.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GitbookModel.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GitbookModel.User" Width="1.5" PointX="5.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GitbookModel.FollowUser" Width="1.5" PointX="7.5" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GitbookModel.Profile" Width="1.5" PointX="7.5" PointY="13.25" IsExpanded="true" />
+        <AssociationConnector Association="GitbookModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="GitbookModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="GitbookModel.FK_FollowUsers_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="GitbookModel.FK_Profiles_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="GitbookModel.FK_FollowUsers_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="GitbookModel.FK_Profiles_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="GitbookModel.AspNetUserRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="GitbookModel.PostsJoin" ManuallyRouted="false" />
+        <AssociationConnector Association="GitbookModel.UserJoin" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
