@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
 namespace DBFirstConsoleApp
 {
@@ -10,6 +6,13 @@ namespace DBFirstConsoleApp
     {
         static void Main(string[] args)
         {
+            using (var context = new SocialMediaEntities())
+            {
+                var u = context.Users.First(i => i.Id == 3);
+                u.FirstName = "Steph";
+                u.LastName = "Kirky";
+                context.SaveChanges();
+            }
         }
     }
 }

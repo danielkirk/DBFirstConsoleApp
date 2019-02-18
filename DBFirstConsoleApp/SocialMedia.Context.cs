@@ -15,10 +15,10 @@ namespace DBFirstConsoleApp
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class gitbookEntities : DbContext
+    public partial class SocialMediaEntities : DbContext
     {
-        public gitbookEntities()
-            : base("name=gitbookEntities")
+        public SocialMediaEntities()
+            : base("name=SocialMediaEntities")
         {
         }
     

@@ -1,0 +1,12 @@
+D:\SF.Code\DBFirstConsoleApp\DBFirstConsoleApp\obj\Debug\DBFirstConsoleApp.csprojAssemblyReference.cache
+D:\SF.Code\DBFirstConsoleApp\DBFirstConsoleApp\obj\Debug\DBFirstConsoleApp.csproj.CoreCompileInputs.cache
+D:\SF.Code\DBFirstConsoleApp\DBFirstConsoleApp\bin\Debug\DBFirstConsoleApp.exe.config
+D:\SF.Code\DBFirstConsoleApp\DBFirstConsoleApp\bin\Debug\DBFirstConsoleApp.exe
+D:\SF.Code\DBFirstConsoleApp\DBFirstConsoleApp\bin\Debug\DBFirstConsoleApp.pdb
+D:\SF.Code\DBFirstConsoleApp\DBFirstConsoleApp\bin\Debug\EntityFramework.dll
+D:\SF.Code\DBFirstConsoleApp\DBFirstConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\SF.Code\DBFirstConsoleApp\DBFirstConsoleApp\bin\Debug\EntityFramework.xml
+D:\SF.Code\DBFirstConsoleApp\DBFirstConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\SF.Code\DBFirstConsoleApp\DBFirstConsoleApp\obj\Debug\DBFirstConsoleApp.csproj.CopyComplete
+D:\SF.Code\DBFirstConsoleApp\DBFirstConsoleApp\obj\Debug\DBFirstConsoleApp.exe
+D:\SF.Code\DBFirstConsoleApp\DBFirstConsoleApp\obj\Debug\DBFirstConsoleApp.pdb
